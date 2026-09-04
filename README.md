@@ -2,6 +2,16 @@
 
 Sync your Dank Material Shell theme colors with your RGB hardware via OpenRGB.
 
+## Demo
+
+[![Demo: Wallpaper by Workspace + OpenRGB Theme Sync](https://i.ytimg.com/vi/OfQJ_lEPi8I/hqdefault.jpg)](https://youtu.be/OfQJ_lEPi8I&t=4s)
+
+Combined demo with Wallpaper by Workspace: switching niri workspaces applies
+the per-workspace wallpaper and regenerates the theme, while this plugin pushes
+the theme color to the RGB hardware live — watch the PC lighting turn green
+with the green wallpaper. Chapters: `0:00` neutral · `0:04` green → green RGB ·
+`0:06` warm · `0:08` snow → white RGB.
+
 ## What it does
 
 This daemon watches for theme color changes and applies the configured color to
