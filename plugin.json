@@ -1,0 +1,17 @@
+{
+    "$schema": "https://github.com/AvengeMedia/DankMaterialShell/raw/refs/heads/master/PLUGINS/plugin-schema.json",
+    "id": "openrgbThemeSync",
+    "name": "OpenRGB Theme Sync",
+    "description": "Syncs your Dank Material Shell theme colors with RGB hardware via OpenRGB. Watches theme color changes and applies the configured color to connected devices, with optional per-device modes.",
+    "version": "1.0.0",
+    "author": "Jairo Sierra",
+    "type": "daemon",
+    "requires_dms": ">=1.0.0",
+    "capabilities": ["background-service", "appearance"],
+    "component": "./OpenrgbThemeSync.qml",
+    "icon": "palette",
+    "settings": "./Settings.qml",
+    "startupCheck": "./StartupCheck.qml",
+    "dependencies": ["openrgb"],
+    "permissions": ["settings_read", "settings_write", "process"]
+}
